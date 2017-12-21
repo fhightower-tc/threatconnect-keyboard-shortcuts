@@ -4,19 +4,21 @@ Keyboard shortcuts for [ThreatConnect](https://app.threatconnect.com) power-user
 
 ## Disclaimer
 
-These shortcuts were not created by ThreatConnect and I am not responsible for any damage incurred using these shortcuts. If you have feedback or suggestions, please raise an [issue](link).
+These shortcuts were not created by ThreatConnect and I am not responsible for any damage incurred using these shortcuts. If you have feedback or suggestions, please raise an [issue](https://github.com/fhightower/threatconnect-keyboard-shortcuts/issues). Thanks!
 
 ## Installation
 
 These keyboard shortcuts are designed to working with a Google Chrome extension. As such, you will need [Google Chrome](https://www.google.com/chrome/index.html) or will need to see if there is a comparable extension in your favorite browser.
 
 0. Install the [Shortcut Keys](https://chrome.google.com/webstore/detail/shortkeys-custom-keyboard/logpjaacgmcbpdkdchjiaagddngobkck) extension for Chrome.
-1. Edit the shortcut keys options by navigating to [chrome://extensions/](chrome://extensions/), finding the entry for the "Shortkeys (Custom Keyboard Shortcuts)" extension, and clicking "Options".
-2. Copy the text from the tc_shortcuts.json in this repository.
-3. Navigate to the "Import" tab of the dialog box and paste the content you copied from tc_shortcuts.json.
+1. Copy the text from the [tc_shortcuts.json](https://raw.githubusercontent.com/fhightower/threatconnect-keyboard-shortcuts/master/tc_shortcuts.json) in this repository.
+2. Edit the shortcut keys options by navigating to [chrome://extensions/](chrome://extensions/), finding the entry for the "Shortkeys (Custom Keyboard Shortcuts)" extension, and clicking "Options".
+3. Navigate to the "Import" tab of the dialog box and paste the content you copied from [tc_shortcuts.json](https://raw.githubusercontent.com/fhightower/threatconnect-keyboard-shortcuts/master/tc_shortcuts.json).
 4. Click the "Import" button and you should be good to go! If you are logged into ThreatConnect, you will have to refresh the page before the shortcuts are available. 
 
 ## Usage
+
+Once you have followed the setup instructions, you can see a full list of shortcuts by navigating to [chrome://extensions/](chrome://extensions/), finding the entry for the "Shortkeys (Custom Keyboard Shortcuts)" extension, and clicking "Options".
 
 Most of the shortcuts are made up of three or four letters. For example, one of the keyboard shortcuts is: `b i a`. To use this keyboard shortcut, you would type the letter "b" then "i", then "a" in relatively quick succession.
 
