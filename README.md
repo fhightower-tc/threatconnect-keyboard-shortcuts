@@ -72,9 +72,10 @@ The possible subtypes for *groups* are:
 There are a few, miscellaneous shortcuts that do not fit the format described above:
 
 - `o w`: Specify an owner
-- `shift+b g`: Browse to all groups
-- `shift+b i`: Browse to all indicators
-- `shift+n`: Create a new playbook (this only works when you are on the [playbooks page](https://app.threatconnect.com/auth/playbooks/index.xhtml))
+- `b g g`: Browse to all groups
+- `b i i`: Browse to all indicators
+- `shift+n p`: Create a new playbook (this only works when you are on the [playbooks page](https://app.threatconnect.com/auth/playbooks/index.xhtml))
+- `shift+n a`: Add an attribute (this only works when you are on the details page of an indicator)
 
 ## Examples
 
