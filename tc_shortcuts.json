@@ -177,7 +177,7 @@
 {
     "action": "javascript",
     "blacklist": false,
-    "code": "PrimeFaces.ab({s:'form:tabView:ccAttribute:j_idt298',p:'form:tabView:ccAttribute:j_idt298',u:'@([id$='editAttributeDlg'])',ps:true,onco:function(xhr,status,args){editAttribute.show();}});",
+    "code": "PrimeFaces.ab({s:'form:tabView:ccAttribute:j_idt298',p:'form:tabView:ccAttribute:j_idt298',u:'@([id$=\"editAttributeDlg\"])',ps:true,onco:function(xhr,status,args){editAttribute.show();}});",
     "customName": "Create New Attribute",
     "key": "shift+n a",
     "open": false,
