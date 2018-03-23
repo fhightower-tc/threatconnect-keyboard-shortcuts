@@ -178,7 +178,7 @@
     "action": "javascript",
     "blacklist": false,
     "code": "PrimeFaces.ab({s:'form:tabView:ccAttribute:j_idt298',p:'form:tabView:ccAttribute:j_idt298',u:'@([id$=\"editAttributeDlg\"])',ps:true,onco:function(xhr,status,args){editAttribute.show();}});",
-    "customName": "Create New Attribute",
+    "customName": "Add New Attribute",
     "key": "a a a",
     "open": false,
     "sites": "*threatconnect.com*",
@@ -513,5 +513,38 @@
     "code": "var ownerId = prompt(\"Enter an owner ID:\");\nvar href = window.location.href;\nwindow.location = href.replace(/owners=[0-9,].*/, \"owners=\" + ownerId);\n",
     "exported": true,
     "sites": "*threatconnect.com*",
+    "sitesArray": ["*threatconnect.com*"]
+},
+{
+    "key": "a g a",
+    "action": "javascript",
+    "blacklist": false,
+    "sites": "*threatconnect.com*",
+    "open": false,
+    "code": "$('.newAssocButton')[0].click()\n$('body').find(\".ui-inputtext[placeholder='Contains text']\")[0].focus()",
+    "customName": "Add Group Association",
+    "exported": true,
+    "sitesArray": ["*threatconnect.com*"]
+},
+{
+    "key": "a i a",
+    "action": "javascript",
+    "blacklist": false,
+    "sites": "*threatconnect.com*",
+    "open": false,
+    "code": "$('.newAssocButton')[1].click()\n$('body').find(\".ui-inputtext[placeholder='Contains text']\")[1].focus()",
+    "customName": "Add Indicator Association",
+    "exported": true,
+    "sitesArray": ["*threatconnect.com*"]
+},
+{
+    "key": "a v a",
+    "action": "javascript",
+    "blacklist": false,
+    "sites": "*threatconnect.com*",
+    "open": false,
+    "code": "$('.newAssocButton')[2].click()\n$('body').find(\".ui-inputtext[placeholder='Contains text']\")[2].focus()",
+    "customName": "Add Victim Asset Association",
+    "exported": true,
     "sitesArray": ["*threatconnect.com*"]
 }]
