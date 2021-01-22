@@ -441,7 +441,7 @@
 {
     "action": "javascript",
     "blacklist": false,
-    "code": "var href = window.location.href;\nwindow.location = href.replace(/\\.com.*/, \".com/auth/playbooks/index.xhtml\");",
+    "code": "var href = window.location.href;\nwindow.location = href.replace(/\\.com.*/, \".com/auth/playbooks-list/#/\");",
     "customName": "Navigate to Playbooks",
     "key": "n p",
     "open": false,
@@ -521,7 +521,7 @@
     "blacklist": false,
     "sites": "*threatconnect.com*",
     "open": false,
-    "code": "$('.newAssocButton')[0].click()\n$('body').find(\".ui-inputtext[placeholder='Contains text']\")[0].focus()",
+    "code": "$('span .view-tab').val('Table')[1].click(); setTimeout(function() { $('.newAssocButton')[0].click(); setTimeout(function() { $('body').find(\"input[placeholder='Contains text']\")[0].focus(); }, 50) }, 100)",
     "customName": "Add Group Association",
     "exported": true,
     "sitesArray": ["*threatconnect.com*"]
@@ -532,7 +532,7 @@
     "blacklist": false,
     "sites": "*threatconnect.com*",
     "open": false,
-    "code": "$('.newAssocButton')[1].click()\n$('body').find(\".ui-inputtext[placeholder='Contains text']\")[1].focus()",
+    "code": "$('span .view-tab').val('Table')[1].click(); setTimeout(function() { $('.newAssocButton')[1].click(); setTimeout(function() { $('body').find(\"input[placeholder='Contains text']\")[1].focus(); }, 50) }, 100)",
     "customName": "Add Indicator Association",
     "exported": true,
     "sitesArray": ["*threatconnect.com*"]
@@ -543,8 +543,85 @@
     "blacklist": false,
     "sites": "*threatconnect.com*",
     "open": false,
-    "code": "$('.newAssocButton')[2].click()\n$('body').find(\".ui-inputtext[placeholder='Contains text']\")[2].focus()",
+    "code": "$('span .view-tab').val('Table')[1].click(); setTimeout(function() { $('.newAssocButton')[2].click(); setTimeout(function() { $('body').find(\"input[placeholder='Contains text']\")[2].focus(); }, 50) }, 100)",
     "customName": "Add Victim Asset Association",
+    "exported": true,
+    "sitesArray": ["*threatconnect.com*"]
+},
+{
+    "key": "p c",
+    "action": "javascript",
+    "blacklist": false,
+    "sites": "*threatconnect.com*",
+    "open": false,
+    "code": "$('#mainContent > div > div > div > div.playbooks-app-content > div > div.tc-ng-app-wrapper > tc-playbook-app-container > tc-playbook-app > div.playbook-status > tc-hover-menu > tc-hover-panel > div > tc-button > button > div').click(); $('.action-item')[1].click();",
+    "customName": "Copy Playbook URL",
+    "exported": true,
+    "sitesArray": ["*threatconnect.com*"]
+},
+{
+    "key": "p z",
+    "action": "javascript",
+    "blacklist": false,
+    "sites": "*threatconnect.com*",
+    "open": false,
+    "code": "$('.switch')[2].click()",
+    "customName": "Toggle the active status of the playbook",
+    "exported": true,
+    "sitesArray": ["*threatconnect.com*"]
+},
+{
+    "key": "p d",
+    "action": "javascript",
+    "blacklist": false,
+    "sites": "*threatconnect.com*",
+    "open": false,
+    "code": "$('.switch')[3].click()",
+    "customName": "Toggle design mode for the playbook",
+    "exported": true,
+    "sitesArray": ["*threatconnect.com*"]
+},
+{
+    "key": "p e",
+    "action": "javascript",
+    "blacklist": false,
+    "sites": "*threatconnect.com*",
+    "open": false,
+    "code": "$('.tc-icon-more_vert')[0].click(); $('#playbook-controls > tc-hover-menu > tc-hover-panel > div > div > div > tc-action-menu > div > tc-action-list > div > div.action-buttons > a.action-item.divider')[0].click()",
+    "customName": "Export a playbook",
+    "exported": true,
+    "sitesArray": ["*threatconnect.com*"]
+},
+{
+    "key": "p a",
+    "action": "javascript",
+    "blacklist": false,
+    "sites": "*threatconnect.com*",
+    "open": false,
+    "code": "$('.tc-icon-add_circle')[1].click()",
+    "customName": "View playbook apps",
+    "exported": true,
+    "sitesArray": ["*threatconnect.com*"]
+},
+{
+    "key": "p t",
+    "action": "javascript",
+    "blacklist": false,
+    "sites": "*threatconnect.com*",
+    "open": false,
+    "code": "$('.tc-icon-add_circle')[0].click()",
+    "customName": "View playbook triggers",
+    "exported": true,
+    "sitesArray": ["*threatconnect.com*"]
+},
+{
+    "key": "p o",
+    "action": "javascript",
+    "blacklist": false,
+    "sites": "*threatconnect.com*",
+    "open": false,
+    "code": "$('.tc-icon-add_circle')[2].click()",
+    "customName": "View playbook operators",
     "exported": true,
     "sitesArray": ["*threatconnect.com*"]
 }]
